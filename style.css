@@ -1,0 +1,77 @@
+.main{
+    height: 100vh;
+    width: 100%;
+    background-image: url(sea.JPEG);
+    background-position: center; 
+    opacity: 1;
+    background-size: cover;
+    color: white;
+    font-family: sans-serif;
+}
+nav{
+    display: flex;
+    padding: 20px 100px;
+    align-items: center;
+
+}
+.main-text h1{
+    color: yellow;
+}
+nav img{
+    width: 150px;
+}
+nav ul{
+    text-align: right;
+    display: inline;
+    list-style: none;
+    flex: 1;
+}
+nav ul li{
+    display: inline-block;
+    margin: 0px 20px;
+    font-size: large;
+}
+nav ul li:hover{
+    background-color: black;
+    color: yellow;
+    transition: 0.5s;
+}
+.main-text{
+    margin: 15% auto;
+    text-align: center;
+    font-style: italic;
+    font: arial;
+}
+.main-text h1{
+    font-size: 40px;
+}
+.main-text .button{
+    text-decoration: none;
+    display: block;
+    width: 140px;
+    height: 35px;
+    margin: 25px auto;
+    color: #fff;
+    line-height: 35px;
+    border: 1px solid white;
+    font-style: normal;
+    font-size: 36;
+    font: bold;
+}
+.button:hover{
+    background: white;
+    color: #000;
+    transition: 0.5s;
+}
+.main-text p{
+    font-size: larger;
+    color: red;
+    font: 48;
+    display: inline-block;
+    
+}
+.main-text p:hover{
+    background:yellow;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    border: 1px solid black;
+}
